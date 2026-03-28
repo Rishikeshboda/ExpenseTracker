@@ -40,7 +40,7 @@ def handle_sms():
                     "content": sms_text
                 }
             ],
-            model="llama3-8b-8192",
+            model="llama-3.3-70b-versatile",
             temperature=0,
             response_format={"type": "json_object"} # Groq supports strict JSON!
         )

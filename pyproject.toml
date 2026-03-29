@@ -1,0 +1,10 @@
+[project]
+name = "expense-tracker"
+version = "1.0.0"
+requires-python = ">=3.9"
+
+[tool.scripts]
+app = "api.index:app"
+
+[tool.railway]
+entrypoint = "api/index.py"

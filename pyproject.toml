@@ -4,7 +4,7 @@ version = "1.0.0"
 requires-python = ">=3.9"
 
 [railway]
-entrypoint = "api/index.py"
+entrypoint = "api/app.py"
 
 [tool.scripts]
-start = "api.index:app"
+start = "api.app:app"
